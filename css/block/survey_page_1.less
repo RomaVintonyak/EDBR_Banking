@@ -1,0 +1,44 @@
+//main: ../style.less
+
+/*header__top*/
+.header__top {
+  width: 100%;
+  height: 28px;
+  background-color: @blue;
+  display: flex;
+  align-items: center;
+  &--lang {
+    display: flex;
+    justify-content: flex-end;
+    a {
+      display: block;
+      font-family: @helvetika;
+      font-size: 15px;
+      font-weight: 300;
+      font-stretch: normal;
+      font-style: normal;
+      line-height: 1.2;
+      letter-spacing: normal;
+      text-align: right;
+      color: @white;
+      margin-right: 45px;
+      text-decoration: none;
+      &:last-child{
+        margin-right: 0;
+      }
+    }
+  }
+}
+/*header__bottom*/
+.header__bottom{
+  display: flex;
+  align-items: center;
+  width: 100%;
+  height: 93px;
+  background-color: @grey;
+}
+.bottom__content{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
