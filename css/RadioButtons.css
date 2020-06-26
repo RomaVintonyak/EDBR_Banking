@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+<style>
+.Radiocontainer {
+  display: block;
+  position: relative;
+  padding-left: 35px;
+  margin-bottom: 12px;
+  cursor: pointer;
+  font-size: 22px;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+.Radiocontainer input {
+  position: absolute;
+  opacity: 0;
+  cursor: pointer;
+}
+.checkmark {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 25px;
+  width: 25px;
+  background-color: #eee;
+  border-radius: 50%;
+}
+.Radiocontainer:hover input ~ .checkmark {
+  background-color: #00acce;
+}
+.Radiocontainer input:checked ~ .checkmark {
+  background-color: #005293;
+}
+.checkmark:after {
+  content: "";
+  position: absolute;
+  display: none;
+}
+.Radiocontainer input:checked ~ .checkmark:after {
+  display: block;
+}
+.Radiocontainer .checkmark:after {
+ 	top: 9px;
+	left: 9px;
+	width: 8px;
+	height: 8px;
+	border-radius: 50%;
+	background: white;
+}
+</style>
+<body>
+
+<h1>Custom Radio Buttons</h1>
+<label class="Radiocontainer">One
+  <input type="radio" checked="checked" name="radio">
+  <span class="checkmark"></span>
+</label>
+<label class="Radiocontainer">Two
+  <input type="radio" name="radio">
+  <span class="checkmark"></span>
+</label>
+<label class="Radiocontainer">Three
+  <input type="radio" name="radio">
+  <span class="checkmark"></span>
+</label>
+<label class="Radiocontainer">Four
+  <input type="radio" name="radio">
+  <span class="checkmark"></span>
+</label>
+
+</body>
+</html>
