@@ -52,6 +52,13 @@
 }
 .brand__asside {
   width: 25%;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  svg {
+    width: 180px;
+    height: 180px;
+  }
 }
 .brand__title {
   width: 75%;
@@ -78,10 +85,113 @@
   }
 }
 /*intro img block*/
-.intro__img{
+.intro__img {
   width: 100%;
   height: 474.5px;
-  background: url(../img/intro/intro.jpg)no-repeat center;
+  background: url(../img/intro/intro.jpg) no-repeat center;
   overflow: hidden;
   background-size: cover;
+}
+/*question section*/
+#question {
+  width: 100%;
+  padding: 130px 0;
+  background-color: @off-white;
+}
+.question__row {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+}
+.question__asside {
+  width: 25%;
+  text-align: left;
+  h3 {
+    font-family: @book;
+    font-size: 40px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.13;
+    letter-spacing: normal;
+    color: @blue;
+  }
+}
+.question__content {
+  width: 75%;
+  padding-left: 55px;
+  h3 {
+    font-size: 34px;
+    font-family: @book;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.12;
+    letter-spacing: normal;
+    text-align: left;
+    color: @charcoal-grey;
+    margin-bottom: 1.5rem;
+  }
+  p {
+    font-family: @book;
+    font-size: 25px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.12;
+    letter-spacing: normal;
+    text-align: left;
+    color: @charcoal-grey;
+    margin-bottom: 1.5rem;
+    &:last-child {
+      margin-bottom: 0;
+    }
+  }
+}
+/*progress block*/
+.progress__block {
+  width: 100%;
+  background-color: @grey;
+  padding: 56px 0;
+}
+.progress__row {
+  h4 {
+    font-family: @book;
+    font-size: 38px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.18;
+    letter-spacing: normal;
+    text-align: left;
+    color: @battleship-grey;
+  }
+  p {
+    font-family: @book;
+    font-size: 40px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.18;
+    letter-spacing: normal;
+    text-align: left;
+    color: @blue;
+  }
+}
+.progress__line{
+  margin-top: 35px;
+  width: 100%;
+  height: 12px;
+  background-color: #ebecec;
+  position: relative;
+  z-index: 1;
+  span{
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 2;
+    height: 100%;
+    width: 1%;
+    background-color: @blue;
+  }
 }
