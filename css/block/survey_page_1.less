@@ -123,6 +123,9 @@
   @media @mobile{
     padding: 50px 0;
   }
+  @media @mobile-xsm{
+    padding: 40px 0;
+  }
 }
 .question__row {
   display: flex;
@@ -213,6 +216,9 @@
   @media @mobile{
     padding: 20px 0;
   }
+  @media @mobile-xsm{
+    padding: 30px 0;
+  }
 }
 .progress__row {
   h4 {
@@ -267,6 +273,9 @@
   @media @mobile{
     margin-top: 45px;
   }
+  @media @mobile-xsm{
+    margin-top: 35px;
+  }
 }
 .testing__row {
   display: flex;
@@ -309,6 +318,9 @@
   @media @mobile{
     width: 100%;
     margin-bottom: 22px;
+  }
+  @media @mobile-xsm{
+    margin-bottom: 25px;
   }
 }
 .testing__content {
@@ -445,6 +457,9 @@
   @media @mobile{
     margin: 45px 0;
   }
+  @media @mobile-xsm{
+    margin: 35px 0;
+  }
 }
 .text__field {
   width: 100%;
@@ -489,6 +504,9 @@
   @media @mobile{
     padding: 40px 0;
     margin-top: 60px;
+  }
+  @media @mobile-xsm{
+    padding: 30px;
   }
 }
 .navigation__row {
@@ -543,6 +561,9 @@
   @media @mobile{
     width: 100%;
   }
+  @media @mobile-xsm{
+    width: 75%;
+  }
 }
 /*footer*/
 #footer {
@@ -555,11 +576,17 @@
   @media @mobile{
     padding-top: 40px;
   }
+  @media @mobile{
+    padding-top: 30px;
+  }
 }
 .footer__row {
   display: flex;
   justify-content: space-between;
   align-items: flex-start;
+  @media @mobile-xsm{
+    flex-wrap: wrap;
+  }
 }
 .footer__logo {
   width: 15%;
@@ -574,6 +601,12 @@
   }
   @media @mobile{
     width: 30%;
+  }
+  @media @mobile-xsm{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
   }
 }
 .footer__text {
@@ -593,6 +626,11 @@
   }
   @media @mobile{
     width: 70%;
+  }
+  @media @mobile-xsm{
+    width: 100%;
+    text-align: center;
+    margin-bottom: 1rem;
   }
 }
 .footer__link {
@@ -639,12 +677,18 @@
       @media @notebook{
         font-size: 19px;
       }
+      @media @mobile-sm{
+        margin-right: 0.4rem;
+      }
       &::last-child{
         margin-right: 0;
       }
     }
     @media @mobile{
       display: block;
+    }
+    @media @mobile-xsm{
+      display: none;
     }
   }
 }
@@ -658,6 +702,10 @@
 .copyright__row {
   display: flex;
   justify-content: space-between;
+  @media @mobile-xsm{
+    flex-wrap: wrap;
+    justify-content: center;
+  }
 }
 .copy__protection {
   font-family: @book;
