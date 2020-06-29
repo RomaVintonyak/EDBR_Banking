@@ -41,8 +41,28 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
+  &--btn{
+    @media @mobile{
+      display: none;
+    }
+  }
+}
+.bottom__brand{
+  display: none;
+  svg {
+    width: 120px;
+    height: 120px;
+  }
+  @media @mobile{
+    display: block;
+  }
 }
 /*nav bar brand*/
+#navBrand{
+  @media @mobile{
+    display: none;
+  }
+}
 .nav__brand {
   display: flex;
   align-items: center;
@@ -91,17 +111,26 @@
   background: url(../img/intro/intro.jpg) no-repeat center;
   overflow: hidden;
   background-size: cover;
+  @media @mobile{
+    height: 210px;
+  }
 }
 /*question section*/
 #question {
   width: 100%;
   padding: 130px 0;
   background-color: @off-white;
+  @media @mobile{
+    padding: 50px 0;
+  }
 }
 .question__row {
   display: flex;
   align-items: flex-start;
   justify-content: space-between;
+  @media @mobile{
+    flex-wrap: wrap;
+  }
 }
 .question__asside {
   width: 25%;
@@ -118,6 +147,10 @@
     @media @notebook{
       font-size: 26px;
     }
+  }
+  @media @mobile{
+    width: 100%;
+    margin-bottom: 1.5rem;
   }
 }
 .question__content {
@@ -164,6 +197,10 @@
     padding-right: 0;
     padding-left: 15px;
   }
+  @media @mobile{
+    width: 100%;
+    padding-left: 0;
+  }
 }
 /*progress block*/
 .progress__block {
@@ -172,6 +209,9 @@
   padding: 56px 0;
   @media @notebook{
     padding: 48px 0;
+  }
+  @media @mobile{
+    padding: 20px 0;
   }
 }
 .progress__row {
@@ -224,11 +264,17 @@
 /*test section*/
 #testing {
   margin-top: 90px;
+  @media @mobile{
+    margin-top: 45px;
+  }
 }
 .testing__row {
   display: flex;
   align-items: flex-start;
   justify-content: space-between;
+  @media @mobile{
+    flex-wrap: wrap;
+  }
 }
 .testing__asside {
   width: 25%;
@@ -259,6 +305,10 @@
     @media @notebook{
       font-size: 25px;
     }
+  }
+  @media @mobile{
+    width: 100%;
+    margin-bottom: 22px;
   }
 }
 .testing__content {
@@ -320,6 +370,10 @@
   @media @tablet{
     padding-right: 0;
     padding-left: 15px;
+  }
+  @media @mobile{
+    padding-left: 0;
+    width: 100%;
   }
 }
 .chose__answer {
@@ -388,6 +442,9 @@
   @media @notebook{
     height: 3px;
   }
+  @media @mobile{
+    margin: 45px 0;
+  }
 }
 .text__field {
   width: 100%;
@@ -429,6 +486,10 @@
     padding: 50px 0;
     margin-top: 80px;
   }
+  @media @mobile{
+    padding: 40px 0;
+    margin-top: 60px;
+  }
 }
 .navigation__row {
   display: flex;
@@ -438,6 +499,9 @@
 .navigation__asside {
   width: 25%;
   height: 100%;
+  @media @mobile{
+    display: none;
+  }
 }
 .navigation__content {
   width: 75%;
@@ -476,6 +540,9 @@
       font-size: 25px;
     }
   }
+  @media @mobile{
+    width: 100%;
+  }
 }
 /*footer*/
 #footer {
@@ -484,6 +551,9 @@
   background-color: @off-white;
   @media @notebook{
     padding-top: 50px;
+  }
+  @media @mobile{
+    padding-top: 40px;
   }
 }
 .footer__row {
@@ -502,6 +572,9 @@
       height: 140px;
     }
   }
+  @media @mobile{
+    width: 30%;
+  }
 }
 .footer__text {
   width: 35%;
@@ -517,6 +590,9 @@
   color: @charcoal-grey;
   @media @notebook{
     font-size: 19px;
+  }
+  @media @mobile{
+    width: 70%;
   }
 }
 .footer__link {
@@ -539,6 +615,36 @@
     color: @charcoal-grey;
     @media @notebook{
       font-size: 19px;
+    }
+  }
+  @media @mobile{
+    display: none;
+  }
+  &--mobile{
+    width: 100%;
+    margin-top: 1rem;
+    display: none;
+    a {
+      text-decoration: none;
+      font-family: @book;
+      font-size: 23px;
+      font-weight: normal;
+      font-stretch: normal;
+      font-style: normal;
+      line-height: 1.17;
+      letter-spacing: normal;
+      text-align: left;
+      color: @charcoal-grey;
+      margin-right: 0.8rem;
+      @media @notebook{
+        font-size: 19px;
+      }
+      &::last-child{
+        margin-right: 0;
+      }
+    }
+    @media @mobile{
+      display: block;
     }
   }
 }

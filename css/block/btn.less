@@ -1,5 +1,5 @@
 //main: ../style.less
-.btn{
+.btn {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -17,27 +17,71 @@
   text-align: left;
   color: @white;
   border: 1px solid @blue;
-  transition: border 0.2s linear, background-color 0.2s linear, color 0.2s linear;
-  &:hover{
-    transition: border 0.2s linear, background-color 0.2s linear, color 0.2s linear;
+  transition: border 0.2s linear, background-color 0.2s linear,
+    color 0.2s linear;
+  &:hover {
+    transition: border 0.2s linear, background-color 0.2s linear,
+      color 0.2s linear;
     border: 1px solid @blue;
     background-color: @white;
     color: @blue;
   }
 }
 /*mobile btn*/
-.mobile__btn{
+.mobile__btn {
   width: 53px;
   height: 53px;
   background-color: @blue;
   border-radius: 50%;
   position: relative;
-  span{
+  display: none;
+  transition: border 0.2s linear, background-color 0.2s linear;
+  span {
     width: 30px;
     height: 3px;
     background-color: @white;
     position: absolute;
+    z-index: 2;
     left: 11.5px;
     top: 25px;
+    transition: background-color 0.2s linear, opacity 0.1s linear, transform 0.3s linear;
+    &:first-child {
+      top: 18px;
+    }
+    &:last-child {
+      top: 32px;
+    }
+  }
+
+  &:hover {
+    border: 1px solid @blue;
+    background-color: @white;
+    transition: border 0.2s linear, background-color 0.2s linear;
+    cursor: pointer;
+    span {
+      background-color: @blue;
+      transition: background-color 0.2s linear, opacity 0.1s linear, transform 0.3s linear;
+    }
+  }
+  @media @tablet{
+    display: block;
+  }
+}
+.burger__open {
+  &:first-child {
+    opacity: 0;
+    transition: opacity 0.1s linear;
+  }
+  &:last-child {
+    opacity: 0;
+    transition: opacity 0.1s linear;
+  }
+  &:nth-child(2){
+    transform: rotate(45deg);
+    transition: transform 0.3s linear;
+  }
+  &:nth-child(3){
+    transform: rotate(-45deg);
+    transition: transform 0.3s linear;
   }
 }
