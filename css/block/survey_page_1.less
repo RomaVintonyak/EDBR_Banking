@@ -115,6 +115,9 @@
     line-height: 1.13;
     letter-spacing: normal;
     color: @blue;
+    @media @notebook{
+      font-size: 26px;
+    }
   }
 }
 .question__content {
@@ -132,6 +135,9 @@
     text-align: left;
     color: @charcoal-grey;
     margin-bottom: 1.5rem;
+    @media @notebook{
+      font-size: 23px;
+    }
   }
   p {
     font-family: @book;
@@ -147,6 +153,16 @@
     &:last-child {
       margin-bottom: 0;
     }
+    @media @notebook{
+      font-size: 19px;
+    }
+  }
+  @media @notebook{
+    padding-right: 100px;
+  }
+  @media @tablet{
+    padding-right: 0;
+    padding-left: 15px;
   }
 }
 /*progress block*/
@@ -154,6 +170,9 @@
   width: 100%;
   background-color: @grey;
   padding: 56px 0;
+  @media @notebook{
+    padding: 48px 0;
+  }
 }
 .progress__row {
   h4 {
@@ -166,6 +185,9 @@
     letter-spacing: normal;
     text-align: left;
     color: @battleship-grey;
+    @media @notebook{
+      font-size: 24px;
+    }
   }
   p {
     font-family: @book;
@@ -177,6 +199,9 @@
     letter-spacing: normal;
     text-align: left;
     color: @blue;
+    @media @notebook{
+      font-size: 25px;
+    }
   }
 }
 .progress__line {
@@ -217,6 +242,9 @@
     letter-spacing: normal;
     text-align: left;
     color: @battleship-grey;
+    @media @notebook{
+      font-size: 24px;
+    }
   }
   h3 {
     font-family: @book;
@@ -228,6 +256,9 @@
     letter-spacing: normal;
     text-align: left;
     color: @blue;
+    @media @notebook{
+      font-size: 25px;
+    }
   }
 }
 .testing__content {
@@ -244,6 +275,9 @@
     letter-spacing: normal;
     text-align: left;
     color: @battleship-grey;
+    @media @notebook{
+      font-size: 24px;
+    }
   }
   h4 {
     font-family: @book;
@@ -256,6 +290,9 @@
     text-align: left;
     color: @blue;
     margin-bottom: 2rem;
+    @media @notebook{
+      font-size: 25px;
+    }
   }
   &--block {
     p {
@@ -272,7 +309,17 @@
       &:last-child {
         margin-bottom: 0;
       }
+      @media @notebook{
+        font-size: 19px;
+      }
     }
+  }
+  @media @notebook{
+    padding-right: 100px;
+  }
+  @media @tablet{
+    padding-right: 0;
+    padding-left: 15px;
   }
 }
 .chose__answer {
@@ -310,6 +357,9 @@
       text-align: left;
       color: @charcoal-grey;
       margin-right: 1.5rem;
+      @media @notebook{
+        font-size: 19px;
+      }
     }
     input[type="checkbox"] {
       /*-webkit-appearance: none;
@@ -317,6 +367,13 @@
       appearance: none;*/
       width: 20px;
       height: 20px;
+      @media @notebook{
+        width: 15px;
+        height: 15px;
+      }
+    }
+    @media @notebook{
+      font-size: 19px;
     }
   }
 }
@@ -327,6 +384,9 @@
   margin: 90px 0;
   &--white {
     background-color: @white;
+  }
+  @media @notebook{
+    height: 3px;
   }
 }
 .text__field {
@@ -351,6 +411,9 @@
       border: 0;
       outline: none;
     }
+    @media @notebook{
+      font-size: 19px;
+    }
   }
   &--small {
     height: 90px;
@@ -361,6 +424,11 @@
   width: 100%;
   padding: 75px 0;
   background-color: @blue;
+  margin-top: 150px;
+  @media @notebook{
+    padding: 50px 0;
+    margin-top: 80px;
+  }
 }
 .navigation__row {
   display: flex;
@@ -385,6 +453,9 @@
     letter-spacing: normal;
     text-align: left;
     color: @grey99;
+    @media @notebook{
+      font-size: 24px;
+    }
   }
   h3 {
     font-family: @book;
@@ -401,6 +472,9 @@
       font-size: 40px;
       margin-left: 1rem;
     }
+    @media @notebook{
+      font-size: 25px;
+    }
   }
 }
 /*footer*/
@@ -408,6 +482,9 @@
   width: 100%;
   padding-top: 70px;
   background-color: @off-white;
+  @media @notebook{
+    padding-top: 50px;
+  }
 }
 .footer__row {
   display: flex;
@@ -420,6 +497,10 @@
   svg {
     width: 180px;
     height: 180px;
+    @media @notebook{
+      width: 140px;
+      height: 140px;
+    }
   }
 }
 .footer__text {
@@ -434,6 +515,9 @@
   line-height: 1.17;
   letter-spacing: normal;
   color: @charcoal-grey;
+  @media @notebook{
+    font-size: 19px;
+  }
 }
 .footer__link {
   width: 25%;
@@ -453,11 +537,17 @@
     letter-spacing: normal;
     text-align: left;
     color: @charcoal-grey;
+    @media @notebook{
+      font-size: 19px;
+    }
   }
 }
 .footer__copyright {
   border-top: 1px solid #707070;
   padding: 15px 0;
+  @media @notebook{
+    padding: 10px 0;
+  }
 }
 .copyright__row {
   display: flex;
@@ -473,6 +563,9 @@
   letter-spacing: normal;
   text-align: left;
   color: @charcoal-grey;
+  @media @notebook{
+    font-size: 19px;
+  }
 }
 .copy__design {
   span {
@@ -487,6 +580,9 @@
     margin-right: 1.5rem;
     &:last-child{
       margin-right: 0;
+    }
+    @media @notebook{
+      font-size: 19px;
     }
   }
 }
