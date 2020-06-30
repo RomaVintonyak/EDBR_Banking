@@ -1,37 +1,45 @@
 //main: ../style.less
 .nav__menu {
-  a {
-    display: inline-block;
-    text-decoration: none;
-    font-family: @demi;
-    font-size: 15px;
-    font-weight: normal;
-    font-stretch: normal;
-    font-style: normal;
-    line-height: 1.13;
-    letter-spacing: normal;
-    text-align: left;
-    color: @charcoal-grey;
-    margin-right: 60px;
-    position: relative;
-    &:last-child{
-      margin-right: 0;
-    }
-    &::after{
-      content: "";
-      width: 0;
-      height: 2px;
-      background-color: @charcoal-grey;
-      position: absolute;
-      left: 0;
-      bottom: -1px;
-      z-index: 2;
-      transition: width 0.4s linear;
-    }
-    &:hover{
-      &::after{
-        width: 100%;
-        transition: width 0.4s linear;
+  ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    li{
+      display: inline-block;
+      margin-right: 60px;
+      &:last-child{
+        margin-right: 0;
+      }
+      a {
+        display: inline-block;
+        text-decoration: none;
+        font-family: @demi;
+        font-size: 15px;
+        font-weight: normal;
+        font-stretch: normal;
+        font-style: normal;
+        line-height: 1.13;
+        letter-spacing: normal;
+        text-align: left;
+        color: @charcoal-grey;
+        position: relative;
+        &::after{
+          content: "";
+          width: 0;
+          height: 2px;
+          background-color: @charcoal-grey;
+          position: absolute;
+          left: 0;
+          bottom: -1px;
+          z-index: 2;
+          transition: width 0.4s linear;
+        }
+        &:hover{
+          &::after{
+            width: 100%;
+            transition: width 0.4s linear;
+          }
+        }
       }
     }
   }

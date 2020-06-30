@@ -1,0 +1,1043 @@
+{
+    "title": "",
+    "description": "",
+    "completedHtml": "This is the end of the questionnaire. Thank you very much for your time. Your feedback is greatly appreciated. We will notify you via email when the aggregate results of the survey are published at the website. You can follow the project and related discussion at the following website: www.ebrd-restructuring.com \n\nFinally, if you think that there is any other area of the insolvency law in your jurisdiction which is not contemplated by this survey but you in your view it is worth bringing it to our attention, please click the following link to open a dialogue box to provide details [●].\n\nYou can also contact the team at: info@ebrd-restructuring.com\n",
+    "pages": [
+        {
+            "name": "page1",
+            "title": "Part I. EXPEDITED CORPORATE REORGANIZATION",
+            "elements": [
+                {
+                    "type": "panel",
+                    "title": "Section 1. GENERAL APPROACH TO CORPORATE REORGANIZATION",
+                    "elements": [
+                        {
+                            "type": "radiogroup",
+                            "name": "question_1",
+                            "description": "The terms insolvency and bankruptcy can be used interchangeably. So are the terms act and law, which are used to refer to the main piece of legislation dealing with the insolvency processes for the reorganisation and liquidation of companies or corporations.\n\nIt mainly involves the restructuring of the debtor's business, including inter alia changing the composition, conditions or structure of the debtor's assets and liabilities or any other part of the its capital structure. Reorganisation and restructuring are usually used as synonyms and for purpose of this questionnaire they can be used interchangeably.",
+                            "descriptionLocation": "underInput",
+                            "title": "Does the insolvency law/s in your jurisdiction allow for court supervised or out-of-court corporate reorganisations to take place?",
+                            "choices": [
+                                "Yes",
+                                "No"
+                            ]
+                        },
+                        {
+                            "type": "radiogroup",
+                            "name": "question_2",
+                            "title": "Do the insolvency laws contain a specific procedure(s)?",
+                            "choices": [
+                                "Yes",
+                                "No"
+                            ]
+                        },
+                        {
+                            "visibleIf": "{question_2} == 'Yes'",
+                            "type": "comment",
+                            "name": "question_3",
+                            "title": "If you answered YES to the previous question, please list this/these specific procedure(s) below"
+                        },
+                        {
+                            "visibleIf": "{question_2} == 'No'",
+                            "type": "comment",
+                            "name": "question_4",
+                            "title": "If you answered NO to the previous two questions, how are corporate reorganisations conducted?"
+                        },
+                        {
+                            "type": "checkbox",
+                            "name": "question_5",
+                            "title": "Who can initiate the reorganization procedure?",
+                            "hasOther": true,
+                            "otherText": "Other, please specify",
+                            "choices": [
+                                "Debtor",
+                                "Creditor",
+                                "Both debtor and creditor"
+                            ]
+                        },
+                        {
+                            "type": "radiogroup",
+                            "name": "question_6",
+                            "description": "Liquidation is a formal insolvency process pursuant to which an insolvency practitioner (the liquidator) is appointed to put the affairs and assets of a company in order.  Liquidation aims at realising the assets of the company, distributing the proceeds of such assets among creditors and dissolving the company.",
+                            "descriptionLocation": "underInput",
+                            "title": "Can a debtor convert an ongoing liquidation process into a reorganization procedure?",
+                            "choices": [
+                                "Yes",
+                                "No"
+                            ]
+                        },
+                        {
+                            "type": "radiogroup",
+                            "name": "question_7",
+                            "description": "By private workouts we refer to completely out-of-court reorganisation arrangements, using simple contract law as the tool to conduct the reorganisation.",
+                            "descriptionLocation": "underInput",
+                            "title": "Are private workouts a common practice in your jurisdiction? (traffic light)",
+                            "choices": [
+                                "Green",
+                                "Green yellow",
+                                "Yellow",
+                                "Yellow red",
+                                "Red"
+                            ]
+                        },
+                        {
+                            "visibleIf": "{question_7} == 'Yes'",
+                            "type": "radiogroup",
+                            "name": "question_8",
+                            "description": "Preferred creditors are those creditors that are entitled by the law to be paid before other creditors.",
+                            "descriptionLocation": "underInput",
+                            "title": "If you have answered YES to the previous question, can private workouts be conducted on a multi-creditor basis (e.g. secured, unsecured, preferred, etc.)?",
+                            "choices": [
+                                "Yes",
+                                "No"
+                            ]
+                        },
+                        {
+                            "type": "radiogroup",
+                            "name": "question_9",
+                            "description": "New financing is any financing provided by an existing or a new creditor to enable the debtor to continue operating its business during the reorganisation procedure, or to preserve or enhance the value of the assets of the estate or to implement the reorganisation plan.",
+                            "descriptionLocation": "underInput",
+                            "title": "Do the insolvency laws in your jurisdiction protect new financing required for the reorganization?",
+                            "choices": [
+                                "Yes",
+                                "No"
+                            ]
+                        },
+                        {
+                            "visibleIf": "{question_9} == 'Yes'",
+                            "type": "radiogroup",
+                            "name": "question_10",
+                            "description": "New financing is any financing provided by an existing or a new creditor to enable the debtor continue operating its business during the reorganisation, or to preserve or enhance the value of the assets of the estate or to implement the reorganisation plan.",
+                            "descriptionLocation": "underInput",
+                            "title": "Is the creditor providing such new financing able under relevant insolvency legislation to obtain a priority of repayment before all other existing creditors?",
+                            "choices": [
+                                "Yes",
+                                "No"
+                            ]
+                        },
+                        {
+                            "visibleIf": "{question_9} == 'Yes'",
+                            "type": "radiogroup",
+                            "name": "question_11",
+                            "description": "New financing is any financing provided by an existing or a new creditor to enable the debtor continue operating its business during the reorganisation, or to preserve or enhance the value of the assets of the estate or to implement the reorganisation plan.\n\n\nAvoidance Actions are judicial actions or remedies that can be brought in an insolvency proceeding against corporations and individuals who have received a payment or other preferred interest from a debtor if declared insolvent. \n\nThe liquidation is a formal insolvency procedure pursuant to which an insolvency practitioner (the liquidator) is appointed to manage the affairs and assets of a company in order to realise the assets and distribute the proceeds among creditors, in a set order of priority.",
+                            "descriptionLocation": "underInput",
+                            "title": "If you answered YES to question 9, is the creditor providing such new financing protected from avoidance actions in liquidation?",
+                            "choices": [
+                                "Yes",
+                                "No"
+                            ]
+                        },
+                        {
+                            "type": "radiogroup",
+                            "name": "question_12",
+                            "description": "New financing is any financing provided by an existing or a new creditor to enable the debtor continue operating its business during the reorganisation, or to preserve or enhance the value of the assets of the estate or to implement the reorganisation plan.",
+                            "descriptionLocation": "underInput",
+                            "title": "Is the provision of new financing a common practice in your jurisdiction?",
+                            "choices": [
+                                "Green",
+                                "Green yellow",
+                                "Yellow",
+                                "Yellow red",
+                                "Red"
+                            ]
+                        },
+                        {
+                            "type": "radiogroup",
+                            "name": "question_13",
+                            "description": "Ipso facto clauses are contractual provisions that allow a party to a contract to terminate its outstanding arrangements or obligations if the other party becomes insolvent (or files for insolvency or an insolvency-related reorganisation procedure)",
+                            "descriptionLocation": "underInput",
+                            "title": "Do the laws in your jurisdiction restrict or prohibit ipso facto clauses?",
+                            "choices": [
+                                "Yes",
+                                "No"
+                            ]
+                        },
+                        {
+                            "type": "radiogroup",
+                            "name": "question_14",
+                            "description": "The definition or categorization of “Small and Medium-sized Enterprises” (SMEs) differs from jurisdiction to jurisdiction. However, the main factors determining whether an enterprise is an SME may include: (1) number of employees; (2) annual turnover and/or (3) value of assets.",
+                            "descriptionLocation": "underInput",
+                            "title": "Could small and medium-sized enterprises benefit from a simplified reorganisation procedure with fewer requirements?",
+                            "choices": [
+                                "Yes",
+                                "No"
+                            ]
+                        },
+                        {
+                            "visibleIf": "{question_14} == 'Yes'",
+                            "type": "radiogroup",
+                            "name": "question_15",
+                            "title": "If you answered YES to the previous question, do they benefit from a faster reorganization procedure?",
+                            "choices": [
+                                "Yes",
+                                "No"
+                            ]
+                        },
+                        {
+                            "visibleIf": "{question_14} == 'Yes'",
+                            "type": "radiogroup",
+                            "name": "question_16",
+                            "description": "The definition or categorization of “Small and Medium-sized Enterprises” (SMEs) differs from jurisdiction to jurisdiction. However, the main factors determining whether an enterprise is an SME may include: (1) number of employees; (2) annual turnover and/or (3) value of assets.",
+                            "descriptionLocation": "underInput",
+                            "title": "Are small and medium-sized enterprises entitled to submit less documentation than large-sized enterprises as part of the reorganization procedure.",
+                            "choices": [
+                                "Yes",
+                                "No"
+                            ]
+                        },
+                        {
+                            "visibleIf": "{question_15} == 'No' or {question_16} == 'No' and {question_14} == 'Yes'",
+                            "type": "radiogroup",
+                            "name": "question_17",
+                            "description": "The definition or categorization of “Small and Medium-sized Enterprises” (SMEs) differs from jurisdiction to jurisdiction. However, the main factors determining whether an enterprise is an SME may include: (1) number of employees; (2) annual turnover and/or (3) value of assets.",
+                            "descriptionLocation": "underInput",
+                            "title": "If you replied NO to any of the two previous questions, do you think that small and mediumsized enterprises should benefit from a less burdensome and faster procedure as long as the minimum standards and requirements are observed?",
+                            "choices": [
+                                "Green",
+                                "Green yellow",
+                                "Yellow",
+                                "Yellow red",
+                                "Red"
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "type": "panel",
+                    "title": "Section 2. PLANNING AND THE INITIAL STAGES OF THE REORGANIZATION",
+                    "elements": [
+                        {
+                            "type": "radiogroup",
+                            "name": "question_2_1",
+                            "description": "Insolvency laws sometimes establish that in order to benefit from the tools or processes included in the law, the company must prove that it is in a state of insolvency. Insolvency is usually demonstrated either through the cash-flow test (i.e. failure to pay obligations as they fall due) or the balance sheet test (i.e. liabilities exceed the value of assets).",
+                            "descriptionLocation": "underInput",
+                            "title": "Can a company start a reorganisation procedure without the need to be in a legal (as defined by law) state of insolvency?",
+                            "choices": [
+                                "Yes",
+                                "No"
+                            ]
+                        },
+                        {
+                            "type": "radiogroup",
+                            "name": "question_2_2",
+                            "title": "Is there a single procedure for the reorganization of companies or more than one procedure?",
+                            "hasOther": true,
+                            "otherText": "More than one procedure. If so, please could you list them:",
+                            "choices": [
+                                "Single procedure"
+                            ]
+                        },
+                        {
+                            "type": "radiogroup",
+                            "name": "question_2_3",
+                            "description": "Some jurisdictions limit the options of companies by only allowing them to use one (or some) of the available procedures. The restrictions may be based on the type of debts, size of the company, number of employees, or on whether a company has already accessed a procedure.",
+                            "descriptionLocation": "underInput",
+                            "title": "If there is more than one procedure, can companies hypothetically use any of them, or are some procedures restricted to specific types of companies or businesses?",
+                            "hasOther": true,
+                            "otherText": "Restricted. If so, please clarify what types of restrictions apply:",
+                            "choices": [
+                                "Unrestricted"
+                            ]
+                        },
+                        {
+                            "type": "radiogroup",
+                            "name": "question_2_4",
+                            "title": "Based on an estimated average, how long does it usually take to conduct a reorganisation from presentation of the plan to the creditors (excluding any preparatory time by the debtor) to receiving the court or administrative authority’s approval?",
+                            "choices": [
+                                "Less than 3 months",
+                                "Between 3 to 6 months",
+                                "Between 6 to 9 months",
+                                "Between 9 to 12 months",
+                                "More than 12 months"
+                            ]
+                        },
+                        {
+                            "type": "radiogroup",
+                            "name": "question_2_5",
+                            "title": "Are all formal, statutory reorganisation procedures conducted under the supervision or guidance of the  court at all times?",
+                            "choices": [
+                                "Yes",
+                                "No"
+                            ]
+                        },
+                        {
+                            "visibleIf": "{question_2_5} == 'No'",
+                            "type": "radiogroup",
+                            "name": "question_2_6",
+                            "title": "Which (if any) other entity or authority is involved?",
+                            "hasOther": true,
+                            "otherText": "Other, please specify:",
+                            "choices": [
+                                "Central Bank",
+                                "Representative or Professional Association",
+                                "Government Agency"
+                            ]
+                        },
+                        {
+                            "type": "radiogroup",
+                            "name": "question_2_7",
+                            "description": "This is what is known as a hybrid procedure, where most of the process takes place out-of-court, behind closed doors and usually under confidentiality agreements. Then, once the required majority of creditors have agreed a reorganisation plan, it is submitted to the court/administrative authority for approval.",
+                            "descriptionLocation": "underInput",
+                            "title": "Can part of the restructuring procedure be conducted out-of-court and then submitted to the court/administrative authority for validation? ",
+                            "choices": [
+                                "Yes",
+                                "No"
+                            ]
+                        },
+                        {
+                            "type": "radiogroup",
+                            "name": "question_2_8",
+                            "description": "An ‘insolvency practitioner’ is a central figure in most insolvency law systems and is a professional, frequently licensed, who is charged with responsibilities as diverse as management of the debtor’s business and preparation of reorganisation plans, to collection and verification of creditors’ claims and distributions of proceeds.",
+                            "descriptionLocation": "underInput",
+                            "title": "Do you think that the requirement to appoint an ‘insolvency practitioner’ can facilitate the reorganisation procedure?",
+                            "choices": [
+                                "Green",
+                                "Green yellow",
+                                "Yellow",
+                                "Yellow red",
+                                "Red"
+                            ]
+                        },
+                        {
+                            "type": "radiogroup",
+                            "name": "question_2_9",
+                            "title": "Is it common practice for debtors to involve advisors with expertise on insolvency and/or reorganisation to assist in the reorganization process?",
+                            "choices": [
+                                "Green",
+                                "Green yellow",
+                                "Yellow",
+                                "Yellow red",
+                                "Red"
+                            ]
+                        },
+                        {
+                            "type": "radiogroup",
+                            "name": "question_2_10",
+                            "description": "In some jurisdictions, it is possible to use a reorganisation procedure to purge liabilities and transfer the business as a going concern without any liability. In other words, liabilities are restructured, converted into equity and/or are paid with the proceeds of the sale of business. A public procedure with publications in the official gazette and/or a major newspaper is sometimes required.",
+                            "descriptionLocation": "underInput",
+                            "title": "Can a reorganization procedure be used to transfer the business as a going concern without liabilities?",
+                            "choices": [
+                                "Green",
+                                "Green yellow",
+                                "Yellow",
+                                "Yellow red",
+                                "Red"
+                            ]
+                        },
+                        {
+                            "type": "radiogroup",
+                            "name": "question_2_11",
+                            "title": "Do all court-supervised reorganisation procedures enjoy the benefit of a standstill or moratorium during which creditors are prevented from taking certain enforcement actions?",
+                            "choices": [
+                                "Yes",
+                                "No"
+                            ]
+                        },
+                        {
+                            "visibleIf": "{question_2_11} == 'No'",
+                            "type": "comment",
+                            "name": "question_2_12",
+                            "title": "If you have responded NO to the previous question, please list any procedure(s) that do benefit from a moratorium."
+                        },
+                        {
+                            "type": "radiogroup",
+                            "name": "question_2_13",
+                            "description": "The reference to “secured creditors” refers - in a broad sense - to creditors whose claim is secured by any type of security, i.e. personal (an obligation that can be enforced against a person, e.g. a guarantee), real (a proprietary interest attached to the assets regardless of the person to whom the assets belong) or quasi-security (other ways of enhancing creditors’ protection without creating an actual security interest).",
+                            "descriptionLocation": "underInput",
+                            "title": "Does the moratorium in the reorganisation procedure also apply to secured creditors’ claims?",
+                            "choices": [
+                                "Yes",
+                                "No"
+                            ]
+                        },
+                        {
+                            "visibleIf": "{question_2_13} == 'No'",
+                            "type": "radiogroup",
+                            "name": "question_2_14",
+                            "title": "Can secured creditors continue with any ongoing legal proceedings regarding their secured claim until they obtain a court order despite the moratorium in the reorganisation procedure?",
+                            "choices": [
+                                "Yes",
+                                "No"
+                            ]
+                        },
+                        {
+                            "type": "radiogroup",
+                            "name": "question_2_15",
+                            "title": "Can secured creditors then enforce on the court order and sell the asset subject to the security irrespective of the ongoing reorganisation procedure?",
+                            "choices": [
+                                "Yes",
+                                "No"
+                            ]
+                        },
+                        {
+                            "type": "radiogroup",
+                            "name": "question_2_16",
+                            "title": "Can a reorganization plan also be used to reorganise the liabilities owed to preferential creditors?",
+                            "choices": [
+                                "Yes",
+                                "No"
+                            ]
+                        },
+                        {
+                            "type": "radiogroup",
+                            "name": "question_2_17",
+                            "description": "Preferred creditors refer to those creditors that have been given a priority in ranking or preference by means of the insolvency law or other piece of legislation (such as employees and the State with uncollected taxes, etc.) and not as result of being secured creditors. ",
+                            "descriptionLocation": "underInput",
+                            "title": "Can a reorganisation plan also be used to reorganize the liabilities owed to preferred creditors?",
+                            "choices": [
+                                "Yes",
+                                "No"
+                            ]
+                        },
+                        {
+                            "visibleIf": "{question_2_17} == 'Yes'",
+                            "type": "radiogroup",
+                            "name": "question_2_18",
+                            "title": "If you responded YES to the previous question, are any preferential creditors exempted from the reorganization?",
+                            "choices": [
+                                "Yes",
+                                "No"
+                            ]
+                        },
+                        {
+                            "visibleIf": "{question_2_17} == 'Yes' and {question_2_18} == 'Yes'",
+                            "type": "comment",
+                            "name": "question_2_19",
+                            "title": "If you answered YES to the previous question, list the exempted preferred creditors below."
+                        },
+                        {
+                            "type": "radiogroup",
+                            "name": "question_2_20",
+                            "title": "Would a creditor obtain some kind of tax relief if, as result of a reorganisation, the creditor decides to write down (cancel) a debt obligation partially or in its entirety?",
+                            "choices": [
+                                "Yes",
+                                "No"
+                            ]
+                        },
+                        {
+                            "type": "radiogroup",
+                            "name": "question_2_21",
+                            "title": "Would a debtor be taxed if, as a result of a reorganisation, the debtor receives an indirect benefit due to write down (cancellation) of a debt obligation owed to one of its creditors?",
+                            "choices": [
+                                "Yes",
+                                "No"
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "type": "panel",
+                    "title": "Section 3. THE REORGANIZATION PLAN",
+                    "elements": [
+                        {
+                            "type": "radiogroup",
+                            "name": "question_3_1",
+                            "description": "Examples of these options include: reduction of face value of creditors’ claims, debt-for-equity swaps, extension of maturities, reduction of applicable interest, payment ‘holidays’, etc. ",
+                            "descriptionLocation": "underInput",
+                            "title": "Does the debtor have the freedom to propose any reorganization (or restructuring) options to its creditors?",
+                            "choices": [
+                                "Green",
+                                "Green yellow",
+                                "Yellow",
+                                "Yellow red",
+                                "Red"
+                            ]
+                        },
+                        {
+                            "type": "radiogroup",
+                            "name": "question_3_2",
+                            "title": "If a debt-for-equity conversion is proposed, does it require the shareholders’ prior approval?",
+                            "choices": [
+                                "Yes",
+                                "No"
+                            ]
+                        },
+                        {
+                            "type": "radiogroup",
+                            "name": "question_3_3",
+                            "title": "Can the debtor request a debt write-off (a nominal value reduction on the creditors’ claim)?",
+                            "choices": [
+                                "Yes",
+                                "No"
+                            ]
+                        },
+                        {
+                            "visibleIf": "{question_3_3} == 'Yes'",
+                            "type": "radiogroup",
+                            "name": "question_3_4",
+                            "description": "Preferred debts refer to those debts that have been given a priority in ranking or preference by means of the insolvency law or other piece of legislation (such as employees and sometimes uncollected taxes, etc.) and not as result of being secured creditors.",
+                            "descriptionLocation": "underInput",
+                            "title": "Can the debtor also request a debt write-off of preferred debts?",
+                            "choices": [
+                                "Yes",
+                                "No"
+                            ]
+                        },
+                        {
+                            "type": "radiogroup",
+                            "name": "question_3_5",
+                            "title": "Does the insolvency law allow certain creditors to be excluded from the reorganisation procedure?",
+                            "choices": [
+                                "Yes",
+                                "No"
+                            ]
+                        },
+                        {
+                            "type": "radiogroup",
+                            "name": "question_3_6",
+                            "title": "In a reorganisation plan, does the law provide for creditors to be organized into groups for voting purposes (also referred to as classes)?",
+                            "choices": [
+                                "Yes",
+                                "No"
+                            ]
+                        },
+                        {
+                            "visibleIf": "{question_3_6} == 'Yes'",
+                            "type": "comment",
+                            "name": "question_3_7",
+                            "title": "Is there any mandatory/required group(s) or class(es)? For example, in some jurisdictions the legislation prescribes two classes of creditors: secured and unsecured for voting on a reorganisation plan."
+                        },
+                        {
+                            "visibleIf": "{question_3_6} == 'Yes'",
+                            "type": "comment",
+                            "name": "question_3_8",
+                            "title": "If you responded YES to the previous question, which group(s) or class(es) are these?",
+                            "choices": [
+                                "Yes",
+                                "No"
+                            ]
+                        },
+                        {
+                            "type": "radiogroup",
+                            "name": "question_3_9",
+                            "title": "Can the debtor propose the group(s) or class(es) at its own discretion (subject to any guidelines or parameters established by the law)?",
+                            "choices": [
+                                "Yes",
+                                "No"
+                            ]
+                        },
+                        {
+                            "visibleIf": "{question_3_9} == 'Yes'",
+                            "type": "radiogroup",
+                            "name": "question_3_10",
+                            "title": "Irrespective of the possibilities provided by the law, can the debtor decide to create a single class comprising all types of creditors (e.g. secured, unsecured, preferred, etc.)?",
+                            "choices": [
+                                "Yes",
+                                "No"
+                            ]
+                        },
+                        {
+                            "type": "radiogroup",
+                            "name": "question_3_11",
+                            "title": "Do creditors vote on the reorganization plan?",
+                            "choices": [
+                                "Yes",
+                                "No"
+                            ]
+                        },
+                        {
+                            "type": "radiogroup",
+                            "name": "question_3_12",
+                            "description": "A connected party is a person or entity which is directly or indirectly related to the debtor company performing the reorganisation e.g. the parent company or shareholder.",
+                            "descriptionLocation": "underInput",
+                            "title": "Are connected parties allowed to vote on the reorganization plan?",
+                            "choices": [
+                                "Yes",
+                                "No"
+                            ]
+                        },
+                        {
+                            "type": "radiogroup",
+                            "name": "question_3_13",
+                            "title": "Are shareholders allowed to vote on the reorganisation plan",
+                            "choices": [
+                                "Yes",
+                                "No"
+                            ]
+                        },
+                        {
+                            "type": "radiogroup",
+                            "name": "question_3_14",
+                            "title": "Do you need approval by a majority in every group or class for the reorganisation plan to be confirmed by a court or administrative authority where such approval is required?",
+                            "choices": [
+                                "Yes",
+                                "No"
+                            ]
+                        },
+                        {
+                            "type": "radiogroup",
+                            "name": "question_3_15",
+                            "description": "Certain jurisdictions, in order to guarantee proper representation, require a double threshold, i.e. simple majority in number of participants/voters (numerosity) and a given percentage in relation to the value of the total outstanding claims (economic value).",
+                            "descriptionLocation": "underInput",
+                            "title": "Does approval of the reorganisation plan require a majority by number of creditors as well as value of claims within each group or class?",
+                            "choices": [
+                                "Yes",
+                                "No"
+                            ]
+                        },
+                        {
+                            "type": "radiogroup",
+                            "name": "question_3_16",
+                            "description": "Cram down means that the decision of the majority of creditors in one or more groups/classes can be imposed on other classes of creditors voting against the reorganisation plan, usually subject to a number of statutory protections for non-consenting creditors (this is different from a cram down within a class).",
+                            "descriptionLocation": "underInput",
+                            "title": "Can the consent of one or more classes of creditors be used to achieve cram down of other classes of non-consenting creditors in their entirety?",
+                            "choices": [
+                                "Yes",
+                                "No"
+                            ]
+                        },
+                        {
+                            "type": "radiogroup",
+                            "name": "question_3_17",
+                            "description": "Preferred creditors refer to those creditors that have been given a priority in ranking or preference by means of the insolvency law or other piece of legislation (such as employees and the State with uncollected taxes, etc.) and not as result of being secured creditors. ",
+                            "descriptionLocation": "underInput",
+                            "title": "Can preferential creditors be subject to cram down?",
+                            "choices": [
+                                "Yes",
+                                "No"
+                            ]
+                        },
+                        {
+                            "type": "radiogroup",
+                            "name": "question_3_18",
+                            "description": "A veto right is a right to block the reorganisation plan. ",
+                            "descriptionLocation": "underInput",
+                            "title": "Are there any types of creditors who have a veto right over the reorganization plan?",
+                            "choices": [
+                                "Yes",
+                                "No"
+                            ]
+                        },
+                        {
+                            "visibleIf": "{question_3_18} == 'Yes'",
+                            "type": "comment",
+                            "name": "question_3_19",
+                            "title": "Which types of creditors have a veto right over the reorganisation plan?"
+                        },
+                        {
+                            "type": "radiogroup",
+                            "name": "question_3_20",
+                            "title": "Can management of the company conducting the reorganization be replaced by creditors?",
+                            "choices": [
+                                "Yes",
+                                "No"
+                            ]
+                        },
+                        {
+                            "type": "radiogroup",
+                            "name": "question_3_21",
+                            "hasOther": true,
+                            "otherText": "NO, please specify",
+                            "title": "Can you use the reorganisation plan to dismiss employees?",
+                            "choices": [
+                                "Yes",
+                                "No"
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "type": "panel",
+                    "title": "Section 4. THE REORGANISATION APPROVAL PHASE AGREED",
+                    "elements": [
+                        {
+                            "type": "radiogroup",
+                            "name": "question_4_1",
+                            "title": "Does a judge or a competent administrative authority review the approved reorganisation plan?",
+                            "choices": [
+                                "Yes",
+                                "No"
+                            ]
+                        },
+                        {
+                            "visibleIf": "{question_4_1} == 'Yes'",
+                            "type": "radiogroup",
+                            "name": "question_4_2",
+                            "title": "Would the judge limit his involvement to reviewing formalities e.g. voting numbers?",
+                            "choices": [
+                                "Green",
+                                "Green yellow",
+                                "Yellow",
+                                "Yellow red",
+                                "Red"
+                            ]
+                        },
+                        {
+                            "type": "radiogroup",
+                            "name": "question_4_3",
+                            "description": "The feasibility of the reorganisation plan means the ability of the debtor to meet its obligations under the proposed plan.",
+                            "descriptionLocation": "underInput",
+                            "title": "Does the judge assess the feasibility of the reorganisation plan?",
+                            "choices": [
+                                "Yes",
+                                "No"
+                            ]
+                        },
+                        {
+                            "type": "radiogroup",
+                            "name": "question_4_4",
+                            "description": "Under the ‘best interests test’ the plan must be better than other alternatives to creditors, typically what they could obtain in the event that the company is liquidated.",
+                            "descriptionLocation": "underInput",
+                            "title": "Does the judge assess whether the plan satisfies the ‘best- interest-of-creditors test’?",
+                            "choices": [
+                                "Yes",
+                                "No"
+                            ]
+                        },
+                        {
+                            "type": "radiogroup",
+                            "name": "question_4_5",
+                            "title": "Can dissenting creditors challenge the reorganisation plan after the vote and prior to the consent or approval by the court (where such consent or approval is required by law)?",
+                            "choices": [
+                                "Yes",
+                                "No"
+                            ]
+                        },
+                        {
+                            "type": "radiogroup",
+                            "name": "question_4_6",
+                            "title": "Is the implementation of the plan supervised by the court, an administrative authority or an insolvency practitioner?",
+                            "choices": [
+                                "Yes",
+                                "No"
+                            ]
+                        },
+                        {
+                            "visibleIf": "{question_4_6} == 'Yes'",
+                            "type": "radiogroup",
+                            "name": "question_4_7",
+                            "hasOther": true,
+                            "otherText": "Other, please specify",
+                            "title": "Is it supervised by:",
+                            "choices": [
+                                "The Judge or an officer of the court",
+                                "An officer appointed by the court/administrative authority",
+                                "A professional with expertise on the subject matter"
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "type": "panel",
+                    "title": "Section 5. OTHER RELEVANT ASPECTS",
+                    "elements": [
+                        {
+                            "type": "radiogroup",
+                            "name": "question_5_1",
+                            "description": "The principle of universality implies that there is only one competent court to decide on the insolvency of the company (unity), and that the insolvency law of the country in which the insolvency has been initiated is effective in all other countries where the company has assets or branches (universality). All assets and liabilities of the parent entity and its foreign branches are wound up as one legal entity (extra-territorial effect to the adjudication of insolvency).",
+                            "descriptionLocation": "underInput",
+                            "title": "Does the insolvency law in your jurisdiction follow the principle of universality?",
+                            "choices": [
+                                "Yes",
+                                "No"
+                            ]
+                        },
+                        {
+                            "visibleIf": "{question_5_1} == 'Yes'",
+                            "type": "radiogroup",
+                            "name": "question_5_2",
+                            "title": "If you answered YES to the previous question, is this principle efficiently applied in practice?",
+                            "choices": [
+                                "Green",
+                                "Green yellow",
+                                "Yellow",
+                                "Yellow red",
+                                "Red"
+                            ]
+                        },
+                        {
+                            "type": "radiogroup",
+                            "name": "question_5_3",
+                            "description": "By efficient from a procedural point of view, we refer to being procedurally simple (e.g. requirements, stages, timeframes, legal costs, etc.) and not unnecessarily burdening stakeholders.",
+                            "descriptionLocation": "underInput",
+                            "title": "Do you consider that the insolvency law in your jurisdiction is efficient from a procedural point of view?",
+                            "choices": [
+                                "Green",
+                                "Green yellow",
+                                "Yellow",
+                                "Yellow red",
+                                "Red"
+                            ]
+                        },
+                        {
+                            "type": "radiogroup",
+                            "name": "question_5_4",
+                            "description": "By efficient from an economic point of view, we refer to whether the law maximizes value/return to creditors.",
+                            "descriptionLocation": "underInput",
+                            "title": "Do you consider that the insolvency law in your jurisdiction is efficient from an economic point of view?",
+                            "choices": [
+                                "Green",
+                                "Green yellow",
+                                "Yellow",
+                                "Yellow red",
+                                "Red"
+                            ]
+                        },
+                        {
+                            "type": "radiogroup",
+                            "name": "question_5_5",
+                            "description": "This is usually reflected by the pari passu principle (equal ranking of creditors) and the par condicio creditorum (equal treatment of creditors). If the law allows for the creation of security interests or certain preferences, this will not necessarily affect the equality of creditors.",
+                            "descriptionLocation": "underInput",
+                            "title": "Is equality of creditors protected?",
+                            "choices": [
+                                "Green",
+                                "Green yellow",
+                                "Yellow",
+                                "Yellow red",
+                                "Red"
+                            ]
+                        },
+                        {
+                            "type": "radiogroup",
+                            "name": "question_5_6",
+                            "title": "Do you consider that the procedures contemplated by the insolvency laws are usually conducted within a framework of high ethical and professional standards?",
+                            "choices": [
+                                "Green",
+                                "Green yellow",
+                                "Yellow",
+                                "Yellow red",
+                                "Red"
+                            ]
+                        },
+                        {
+                            "visibleIf": "{question_5_6} == 'No'",
+                            "type": "comment",
+                            "name": "question_5_7",
+                            "title": "If you responded NO to the previous question, what is the main reason that the procedures are not conducted within a framework of high ethical and professional standards?"
+                        },
+                        {
+                            "type": "radiogroup",
+                            "name": "question_5_8",
+                            "title": "Are reorganization procedures commonly used in practice in your jurisdiction?",
+                            "choices": [
+                                "Green",
+                                "Green yellow",
+                                "Yellow",
+                                "Yellow red",
+                                "Red"
+                            ]
+                        },
+                        {
+                            "visibleIf": "{question_5_8} == 'Yes'",
+                            "type": "radiogroup",
+                            "name": "question_5_9",
+                            "title": "If you have answered YES to the previous question, do you think that reorganisation procedures serve their purpose i.e. to enable the debtor to continue its operations on a sustainable debt basis?",
+                            "choices": [
+                                "Green",
+                                "Green yellow",
+                                "Yellow",
+                                "Yellow red",
+                                "Red"
+                            ]
+                        },
+                        {
+                            "type": "radiogroup",
+                            "name": "question_5_10",
+                            "title": "Is reorganization often used to delay the unavoidable (liquidation)?",
+                            "description": "The liquidation is a formal insolvency procedure pursuant to which an insolvency practitioner (the liquidator) is appointed to manage the affairs and assets of a company in order to realise the assets and distribute the proceeds among creditors, in a set order of priority.",
+                            "descriptionLocation": "underInput",
+                            "choices": [
+                                "Green",
+                                "Green yellow",
+                                "Yellow",
+                                "Yellow red",
+                                "Red"
+                            ]
+                        },
+                        {
+                            "type": "radiogroup",
+                            "name": "question_5_11",
+                            "title": "Does a reorganization process carry a negative stigma for the debtor?",
+                            "choices": [
+                                "Green",
+                                "Green yellow",
+                                "Yellow",
+                                "Yellow red",
+                                "Red"
+                            ]
+                        },
+                        {
+                            "type": "comment",
+                            "name": "question_5_12",
+                            "title": "If reorganisation procedures are NOT commonly used in your jurisdiction, please explain why below:"
+                        },
+                        {
+                            "type": "checkbox",
+                            "name": "question_5_13",
+                            "description": "-Expediency/speed: i.e. that a rapid resolution of the situation of distress can be achieved.\n-High professional and ethical standards: i.e. that the process is conducted according to high professional standards and under ethical parameters.\n-Efficiency: i.e. the process is economically and procedurally efficient.\n-Equal treatment: i.e. that all parties are treated equally (debtor/s and creditors) and also among themselves (inter-creditors).\n-Value maximization: i.e. that the creation of value for debtor and creditor should be enshrined in the process.\n-Negotiability: i.e. that there is flexibility in the options and certain degree of freedom to the parties to negotiate a favourable outcome.\n-Reciprocity: i.e. the domestic recognition and enforcement of judgments or orders from a foreign court and vice-versa.\n-Transparency and Access to information: i.e. that the process is conducted in an efficient manner and the parties have access to information to be able to make informed decisions.\n-Universality: i.e. that there is only one competent court to decide on the affairs of the company (unity), and that the insolvency law of the country in which the insolvency has been initiated is effective in all other countries where the company has assets or branches (universality)",
+                            "descriptionLocation": "underInput",
+                            "title": "Which of the following guiding principles are part of your insolvency law:",
+                            "choices": [
+                                "Expediency/speed",
+                                "High professional and ethical standards",
+                                "Efficiency",
+                                "Equal treatment",
+                                "Value maximization",
+                                "Negotiability",
+                                "Transparency and Access to information",
+                                "Reciprocity"
+                            ]
+                        },
+                        {
+                            "type": "radiogroup",
+                            "name": "question_5_14",
+                            "title": "If some of the guiding principles listed in question 13 above are not part of your insolvency laws, list three (not more) that you think are essential to be included in order of priority, where 1 is the most important:",
+                            "choices": [
+                                "Expediency/speed",
+                                "High professional and ethical standards",
+                                "Efficiency",
+                                "Equal treatment",
+                                "Value maximization",
+                                "Negotiability",
+                                "Transparency and Access to information",
+                                "Reciprocity"
+                            ]
+                        },
+                        {
+                            "type": "radiogroup",
+                            "name": "question_5_15",
+                            "description": "Mediation is a process where a neutral third party assists in an attempt to resolve a dispute, conflict or disagreement. This is usually conducted using specialized communication and negotiation techniques. Alternative dispute resolution mechanisms usually refer to alternative ways of resolving disputes between the parties that do not involve the use of courts. Due the special nature of arbitration, it is usually a standalone category and therefore reference here to ADR does not include arbitration\n\nDue the special nature of arbitration, it is a standalone category, therefore ADR usually refers to mediation processes.",
+                            "descriptionLocation": "underInput",
+                            "title": "Does mediation or any other alternative dispute resolution (ADR) mechanism have any role in reorganisation procedures in your jurisdiction?",
+                            "choices": [
+                                "Yes",
+                                "No"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "page2",
+            "title": "PART 2: NON-PERFORMING LOANS in the CORPORATE SECTOR IN EBRD’s COUNTRIES OF OPERATION",
+            "elements": [
+                {
+                    "type": "panel",
+                    "title": "Section none",
+                    "elements": [
+                        {
+                            "type": "radiogroup",
+                            "name": "question_6_1",
+                            "title": "Do the reorganization tools provided in the insolvency laws in your jurisdiction efficiently facilitate the resolution of NPLs?",
+                            "choices": [
+                                "Green",
+                                "Green yellow",
+                                "Yellow",
+                                "Yellow red",
+                                "Red"
+                            ]
+                        },
+                        {
+                            "type": "radiogroup",
+                            "name": "question_6_2",
+                            "title": "Do the enforcement tools provided in the general legislation (other than insolvency) in your jurisdiction efficiently facilitate the resolution of NPLs?",
+                            "choices": [
+                                "Green",
+                                "Green yellow",
+                                "Yellow",
+                                "Yellow red",
+                                "Red"
+                            ]
+                        },
+                        {
+                            "type": "radiogroup",
+                            "name": "question_6_3",
+                            "description": "A third party is a non-related individual or legal entity to the company.",
+                            "descriptionLocation": "underInput",
+                            "title": "How easy is it to obtain a reliable third party valuation of collateral or security in your jurisdiction for the purpose of assessing NPL provisioning levels?",
+                            "choices": [
+                                "Very",
+                                "To a major extent",
+                                "To some extent",
+                                "Difficult",
+                                "Not at all"
+                            ]
+                        },
+                        {
+                            "type": "matrixdropdown",
+                            "name": "question_6_4",
+                            "title": "To what extent do you consider the following issues to be impediments to NPLs resolution?",
+                            "hasComment": true,
+                            "commentText": "Please list any further impediments to effective NPL resolution in your jurisdiction not mentioned above:",
+                            "description": "[MARK A MAXIMUM OF THREE USING NUMBERS FROM 1 to 3 IN ORDER OF PRIORITY. PARTICIPANTS CAN ANSWER LESS THAN THREE IF THEY WANT.]",
+                            "choices": [
+                                "Tax inefficiencies/ obstacles relating to the transfer of NPLs",
+                                "Lack of in-house NPLs management capacities in banks",
+                                "Lack of a secondary market for NPLs",
+                                "Assignment or transfer restrictions e.g. borrower consent or licensing requirements for NPLs purchasers",
+                                "Lack of a developed external NPLs servicing infrastructure",
+                                "Inadequate financial information on borrowers for NPLs purchasers e.g. due to banking secrecy restrictions",
+                                "Inadequate environment for multi-creditor out-of-court restructuring",
+                                "Weaknesses in the enforcement regime to collect on debts",
+                                "Weaknesses in the insolvency regime"
+                            ],
+                            "columns": [
+                                {
+                                    "name": "column_1",
+                                    "title": {
+                                        "default": "Choices"
+                                    },
+                                    "cellType": "dropdown"
+                                }
+                            ],
+                            "rows": [
+                                {
+                                    "value": "Priority_1",
+                                    "text": {
+                                        "default": "Priority 1"
+                                    }
+                                },
+                                {
+                                    "value": "Priority_2",
+                                    "text": {
+                                        "default": "Priority 2"
+                                    }
+                                },
+                                {
+                                    "value": "Priority_3",
+                                    "text": {
+                                        "default": "Priority 3"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "type": "radiogroup",
+                            "name": "question_6_5",
+                            "description": "A third party is a non-related individual or legal entity.",
+                            "descriptionLocation": "underInput",
+                            "title": "What is the main NPL resolution methodology adopted by creditors in your jurisdiction at present?",
+                            "hasComment": true,
+                            "commentText": "Other, please specify",
+                            "choices": [
+                                "In-house management",
+                                "Single asset sales",
+                                "Portfolio sales",
+                                "Delegating management to third party servicer or equivalent",
+                                "All of the above"
+                            ]
+                        },
+                        {
+                            "type": "radiogroup",
+                            "name": "question_6_6",
+                            "title": "If you had to select the most important area for facilitating NPL resolution in your jurisdiction would it be:",
+                            "hasComment": true,
+                            "commentText": "None of the above, please specify",
+                            "choices": [
+                                "More effective supervisory rules and/or practices",
+                                "Fewer regulatory constraints on banks",
+                                "Better insolvency and enforcement legal systems",
+                                "Better out-of-court restructuring practices",
+                                "A more favourable tax regime for transfer and resolution of NPLs",
+                                "A more developed secondary market for NPLs",
+                                "A more developed market for servicing NPLs"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        }
+    ],
+    "showQuestionNumbers": "off"
+}
